@@ -20,7 +20,7 @@ outputs:
 runtime:
   kind: docker
   # Filled in by the release workflow with the pushed image's digest.
-  image: ghcr.io/osintverse-community/btc-address@sha256:0000000000000000000000000000000000000000000000000000000000000000
+  image: ghcr.io/osintverse-community/btc-address@sha256:064e8edc4d61dfc5c00265ef1d1c288687242f25d573327b9ba4ed6be8185b9a
   platforms: [linux/amd64, linux/arm64]
   command: ["btc-address", "{address}"]
   output_format: json
